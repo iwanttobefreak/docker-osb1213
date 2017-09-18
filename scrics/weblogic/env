@@ -1,0 +1,13 @@
+v_domain=osb
+v_machine=127.0.0.1
+v_dir_run=/u01/weblogic/scrics
+v_wlst=/u01/weblogic/mid1213/oracle_common/common/bin/wlst.sh
+v_nodemanagerhome=/u01/weblogic/domains/osb/nodemanager/
+v_consola="t3://${v_machine}:7001"
+v_port=5556
+v_type=plain
+
+v_fileConfigConsole=$v_dir_run/keys/AdminConfig
+v_fileKeyConsole=$v_dir_run/keys/AdminKey
+v_fileConfigNM=$v_dir_run/keys/NodeManagerConfig
+v_fileKeyNM=$v_dir_run/keys/NodeManagerKey
